@@ -1,0 +1,37 @@
+{
+    "posts":[
+        {
+            "id": 1,
+            "title": "Create-React-App", 
+            "body": "", 
+            "likes": ""
+        },
+
+        {
+            "id": 2,
+            "title": "", 
+            "body": "", 
+            "likes": ""
+        },
+        {
+            "id": 3, 
+            "title": "", 
+            "body": "", 
+            "likes": ""
+        },
+        {
+            "id": 4,
+            "title": "", 
+            "body": "", 
+            "likes": ""
+        },
+        {
+            "id": 5, 
+            "title": "", 
+            "body": "", 
+            "likes": ""
+        }
+    ]
+
+
+}
