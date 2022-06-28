@@ -1,42 +1,34 @@
 {
-    "posts":[
-        {
-            "id": 1,
-            "title": "Create-React-App", 
-            "body": "This will contain information about create-react-app", 
-            "author": "Insert Author Name",
-            "excerpt": "Placeholder text"
-        },
-
-        {
-            "id": 2,
-            "title": "React Router", 
-            "body": "This will contain information about", 
-            "author": "Insert Author Name",
-            "excerpt": "Placeholder text"
-        },
-        {
-            "id": 3, 
-            "title": "useEffect", 
-            "body": "This will contain information about", 
-            "author": "Insert Author Name",
-            "excerpt": "Placeholder text"
-        },
-        {
-            "id": 4,
-            "title": "useState", 
-            "body": "This will contain information about", 
-            "author": "Insert Author Name",
-            "excerpt": "Placeholder text"
-        },
-        {
-            "id": 5, 
-            "title": "JSX", 
-            "body": "Insert Author Name", 
-            "author": "This will contain information about",
-            "excerpt": "Placeholder text"
-        }
-    ]
-
-
+  "posts": [
+    {
+      "id": 1,
+      "title": "Create-React-App",
+      "body": "This will contain information about create-react-app",
+      "author": "Insert Author Name"
+    },
+    {
+      "id": 2,
+      "title": "React Router",
+      "body": "This will contain information about",
+      "author": "Insert Author Name"
+    },
+    {
+      "id": 3,
+      "title": "useEffect",
+      "body": "This will contain information about",
+      "author": "Insert Author Name"
+    },
+    {
+      "id": 4,
+      "title": "useState",
+      "body": "This will contain information about",
+      "author": "Insert Author Name"
+    },
+    {
+      "id": 5,
+      "title": "JSX",
+      "body": "Insert Author Name",
+      "author": "This will contain information about"
+    }
+  ]
 }

@@ -12,7 +12,6 @@ function PostList({ posts }) {
                         <h3>{post.title}</h3>
                     </Link>
                         <p>Written by {posts.author}</p>
-                        <p>{post.excerpt}</p>
                 </div>
             ))}
         </div>

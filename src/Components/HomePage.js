@@ -1,21 +1,25 @@
 import PostList from './PostList';
-import React, { useEffect, useState} from 'react';
 
-const HomePage = () => {
-    const [posts, setPosts] = useState([]);
+// import React, { useEffect, useState} from 'react';
 
-    useEffect(() => {
-        fetch('http://localhost:3004/posts')
-            .then(response => response.json())
-            .then(posts => setPosts(posts));
-    }, []);
+function HomePage({posts}){
+    // const [posts, setPosts] = useState([]);
 
-    console.log(posts);
+    // useEffect(() => {
+    //     fetch('http://localhost:3004/posts')
+    //         .then(response => response.json())
+    //         .then(posts => setPosts(posts));
+    // }, []);
+
+    // console.log(posts);
    
 
     return (
         <div className="homepage">
-            <PostList posts={posts} title="All Posts" />
+            <PostList
+                title="All Posts"
+                posts={posts}
+            />
         </div>
     );
 }
