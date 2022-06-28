@@ -3,38 +3,38 @@
         {
             "id": 1,
             "title": "Create-React-App", 
-            "body": "", 
-            "likes": "",
-            "date": ""
+            "body": "This will contain information about create-react-app", 
+            "author": "Insert Author Name",
+            "excerpt": "Placeholder text"
         },
 
         {
             "id": 2,
-            "title": "", 
-            "body": "", 
-            "likes": "",
-            "date": ""
+            "title": "React Router", 
+            "body": "This will contain information about", 
+            "author": "Insert Author Name",
+            "excerpt": "Placeholder text"
         },
         {
             "id": 3, 
-            "title": "", 
-            "body": "", 
-            "likes": "",
-            "date": ""
+            "title": "useEffect", 
+            "body": "This will contain information about", 
+            "author": "Insert Author Name",
+            "excerpt": "Placeholder text"
         },
         {
             "id": 4,
-            "title": "", 
-            "body": "", 
-            "likes": "",
-            "date": ""
+            "title": "useState", 
+            "body": "This will contain information about", 
+            "author": "Insert Author Name",
+            "excerpt": "Placeholder text"
         },
         {
             "id": 5, 
-            "title": "", 
-            "body": "", 
-            "likes": "",
-            "date": ""
+            "title": "JSX", 
+            "body": "Insert Author Name", 
+            "author": "This will contain information about",
+            "excerpt": "Placeholder text"
         }
     ]
 
