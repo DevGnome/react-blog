@@ -1,9 +1,10 @@
 import PostList from './PostList';
-import { useFetch } from './Hooks/useFetch';
+import useFetch from '../Hooks/useFetch';
+
 
 function HomePage(){
-    const {data: posts} = useFetch('http://localhost:3004/blogs')
-
+    const [posts] = useFetch('http://localhost:3004/blogs');
+    console.log(posts);
     return (
         <div className="homepage">
             <PostList
