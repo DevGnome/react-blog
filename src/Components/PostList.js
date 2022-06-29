@@ -1,8 +1,7 @@
 import { Link } from 'react-router-dom';
 
 
-
-function PostList({ posts }) {
+function PostList(posts) {
     return (
         <div className="post-list">
             <h1> All Blog Posts</h1>

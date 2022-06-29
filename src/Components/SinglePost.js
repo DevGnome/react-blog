@@ -1,10 +1,11 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { useFetch } from './Hooks/useFetch';
+import useFetch from '../Hooks/useFetch';
+
 
 
 function SinglePost() {
     const { id } = useParams();
-    const { data: post } = useFetch(`http://localhost:3004/blogs/${id}`);
+    const [post] = useFetch(`http://localhost:3004/blogs/${id}`);
     const navigate = useNavigate();
 
     const handleDelete = () => {
