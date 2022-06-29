@@ -3,7 +3,7 @@ import useFetch from '../Hooks/useFetch';
 
 
 function HomePage(){
-    const [posts] = useFetch('http://localhost:3004/blogs');
+    const [posts] = useFetch('http://localhost:3004/posts');
     console.log(posts);
     return (
         <div className="homepage">
