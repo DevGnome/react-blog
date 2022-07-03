@@ -16,17 +16,16 @@ import { Link } from 'react-router-dom';
 //     );         
 // }
     
-const PostList = ({posts}) => {
+const PostList = ({Posts}) => {
     
     return ( 
-        <div className="blog-list">
+        <div className="note-list">
             <h2>All Posts</h2>
-            {posts.map(post=> (
+            {Posts.map(post=> (
                 <div className="post-list-items" key={post.id}>
-                    <Link to={`/posts/${post.id}`}>
-                        <h2>{post.title}</h2>
+                    <Link to={`/post/${post.id}`}>
+                        <h3>{post.title}</h3>
                     </Link>
-                    <p>Written by {post.author}</p>
                 </div>
             ))}
         </div>

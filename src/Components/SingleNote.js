@@ -12,7 +12,7 @@ function SinglePost() {
         fetch(`http://localhost:3004/posts/${id}`, {
             method: 'DELETE'
         }).then(() => {
-            navigate.pushState('/'); 
+            navigate('/'); 
         });
     }
 
@@ -20,7 +20,6 @@ function SinglePost() {
         <div className="single-post">
             <article >
                 <h1>{post.title}</h1>
-                <p>Written by {post.author}</p>
                 <p>{post.body}</p>
                 <button onClick={handleDelete}>Delete Post</button>
             </article>
