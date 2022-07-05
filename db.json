@@ -1,34 +1,34 @@
 {
-  "notes": [
+  "posts": [
     {
       "id": 1,
       "title": "Create-React-App",
       "body": "This will contain information about create-react-app",
-      "topic": " "
+      "author": " "
     },
     {
       "id": 2,
       "title": "React Router",
       "body": "This will contain information about",
-      "topic": " "
+      "author": " "
     },
     {
       "id": 3,
       "title": "useEffect",
       "body": "This will contain information about",
-      "topic": " "
+      "author": " "
     },
     {
       "id": 4,
       "title": "useState",
       "body": "This will contain information about",
-      "topic": " "
+      "author": " "
     },
     {
       "id": 5,
       "title": "JSX",
       "body": "This will contain information about",
-      "topic": " "
+      "author": " "
     }
   ]
 }

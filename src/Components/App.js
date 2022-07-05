@@ -1,8 +1,8 @@
 import React from 'react';
 import {Routes, Route} from 'react-router-dom';
 import HomePage from './HomePage';
-import SinglePost from './SingleNote';
-import CreatePost from './CreateNote';
+import SinglePost from './SinglePost';
+import CreatePost from './CreatePost';
 import About from './About';
 import NavBar from './NavBar';
 
