@@ -1,7 +1,8 @@
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
+// import Box from '@mui/material/Box';
+// import TextField from '@mui/material/TextField';
+import { Button, TextField, Box } from '@mui/material';
 
 function CreatePost() {
     const [title, setTitle] = useState('');
@@ -57,12 +58,12 @@ function CreatePost() {
         <Box
             component="form"
             sx={{
-            '& .MuiTextField-root': { m: 1, width: '25ch' },
+            '& .MuiTextField-root': { m: 1, width: '50ch' },
             }}
             noValidate
             autoComplete="off"
         >
-            <div>
+            <div className="create-post-form">
                 <TextField
                     id="outlined-basic"
                     label="Title"
@@ -70,15 +71,17 @@ function CreatePost() {
                     value={title}
                     onChange={(e) => setTitle(e.target.value)} required
                 />
+                <br />
                 <TextField
                     id="outlined-multiline-flexible"
                     label="Body"
                     variant="outlined"
                     multiline
-                    rowsMax={4}
+                    rows={10}
                     value={body}
                     onChange={(e) => setBody(e.target.value)} required
                 />
+                <br />
                 <TextField
                     id="outlined-basic"
                     label="Author"
@@ -86,7 +89,8 @@ function CreatePost() {
                     value={author}
                     onChange={(e) => setAuthor(e.target.value)} required
                 />
-                <button type="submit" onClick={handleSubmit}>Submit</button>
+                <br />
+                <Button variant="contained" type="submit" onClick={handleSubmit}>Submit</Button>
             </div>
         </Box>
 
