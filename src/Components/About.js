@@ -4,7 +4,7 @@ function About() {
     return (
         <div>
         <h1>About This App</h1>
-        <p>My name is Hugh Witchella and this is a blog application that I built using React.</p>
+        <p>This is a single page blog created using React as a project for Flatiron School. The goal of the project is to show knowledge of </p>
         </div>
     );
 }
