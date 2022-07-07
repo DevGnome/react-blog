@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from 'react-router-dom';
-// import HomeIcon from '@mui/icons-material/Home';
-// import InfoIcon from '@mui/icons-material/Info';
+import { Button } from '@mui/material';
+import HomeIcon from '@mui/icons-material/Home';
+import InfoIcon from '@mui/icons-material/Info';
+import FiberNewIcon from '@mui/icons-material/FiberNew';
 
 function NavBar() {
 
@@ -9,20 +11,10 @@ function NavBar() {
         <div className="navbar">
             
             <nav className="nav-links">
-            <h1> Simple Blog List</h1>
-                {/* <ul>
-                    <li> */}
-                {/* <HomeIcon /> */}
-                <Link to="/">Home</Link>
-                    {/* </li>
-                    <li> */}
-                {/* <InfoIcon /> */}
-                <Link to="/about">About</Link>
-                    {/* </li>
-                    <li> */}
-                <Link to="/create-post">Create Post</Link>
-                    {/* </li>
-                </ul> */}
+            <h1>Project Blog </h1>
+                <Button component={Link} to="/" startIcon={<HomeIcon />} color="info" variant="outlined" size="medium">Home</Button>
+                <Button component={Link} to="/about" startIcon={<InfoIcon />} color="info" variant="outlined" size="medium">About</Button>
+                <Button component={Link} to="/create-post" startIcon={<FiberNewIcon />} color="info" variant="outlined" size="medium">New Post</Button>
             </nav>
             <hr />
         </div>

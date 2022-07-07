@@ -1,6 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import useFetch from '../Hooks/useFetch';
-
+import { Typography, Button } from '@mui/material';
 
 
 function SinglePost() {
@@ -16,26 +16,24 @@ function SinglePost() {
         });
     }
 
+    
     return (
         <div className="single-post">
-            <article >
-                <h1>{post.title}</h1>
-                <p>{post.body}</p>
-                <button onClick={handleDelete}>Delete Post</button>
-            </article>
+            <div className="post-title">
+                <Typography variant="h3">{post.title}</Typography>
+                <Typography variant="caption">Created on {post.created}</Typography>
+            </div>
+            <div className="post-body">
+                <Typography variant="body1">{post.body}</Typography>
+                <br />
+                <br />
+                <Typography variant="body2">By {post.author}</Typography>
+            </div>
+            <Button variant="contained" onClick={handleDelete}>Delete Post</Button>
         </div>
     );
+
 }
-//     return (
-//         <div className="single-post">
-//             <h1>{title}</h1>
-//             <h4>Written by {author}</h4>
-//             <p>{body}</p>
-//             {/* <button onClick={handleDeleteClick} className="emoji-button delete">
-//                 🗑
-//             </button> */}
-//         </div>
-//     );
-// }
+
 
 export default SinglePost;

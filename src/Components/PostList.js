@@ -1,34 +1,19 @@
 import { Link } from 'react-router-dom';
-
-
-// function PostList({posts, title}) {
-//     return (
-//         // <div className="post-list">
-//         //     {/* <h1> All Blog Posts</h1>
-//         //     const postListItems = {posts.map(post => (
-//         //         <div className='post-list-item' key={post.id}>
-//         //             <Link to={`/posts/${post.id}`}>
-//         //                 <h3>{post.title}</h3>
-//         //             </Link>
-//         //                 <p>Written by {posts.author}</p>
-//         //         </div>
-//         //     ))} */}
-//     );         
-// }
     
 const PostList = ({posts}) => {
-    
+    let sortedPosts = posts.slice().sort((a, b) => b.id - a.id);
+
     return ( 
         <div className="post-list">
             <div className="title">
                 {/* <h2>All Posts</h2> */}
             </div>
-            
-            {posts.map(post=> (
+            {sortedPosts.map(post=> (
                 <div className="list-items" key={post.id}>
                     <Link to={`/posts/${post.id}`}>
                         <h3>{post.title}</h3>
                     </Link>
+                    <h6>Created {post.created}</h6>
                     <p>Written by {post.author}</p>
                 </div>
             ))}
