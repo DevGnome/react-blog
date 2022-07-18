@@ -25,36 +25,6 @@ function CreatePost() {
             .then(() => { navigate('/'); })
     }
     return (
-        // <div className="post-form">
-        //     <h1>Create A New Post</h1>
-        //     <form onSubmit={handleSubmit}>
-        //         <label>Title:</label>
-        //         <br />
-        //         <input
-        //             type="text"
-        //             value={title}
-        //             onChange={(e) => setTitle(e.target.value)}
-        //         />
-        //         <br />
-        //         <label>Body:</label>
-        //         <br />
-        //         <textarea
-        //             required
-        //             value={body}
-        //             onChange={(e) => setBody(e.target.value)}
-        //         />
-        //         <br />
-        //         <label>Author:</label>
-        //         <br />
-        //         <input
-        //             type="text"
-        //             value={author}
-        //             onChange={(e) => setAuthor(e.target.value)}
-        //         />
-        //         <br />
-        //         <button type="submit">Submit</button>
-        //     </form>
-        // </div>
         <Box
             component="form"
             sx={{

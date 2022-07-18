@@ -6,7 +6,7 @@ const PostList = ({posts}) => {
     return ( 
         <div className="post-list">
             <div className="title">
-                {/* <h2>All Posts</h2> */}
+                <h2>All Posts</h2>
             </div>
             {sortedPosts.map(post=> (
                 <div className="list-items" key={post.id}>

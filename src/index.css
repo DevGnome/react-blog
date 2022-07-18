@@ -32,8 +32,8 @@ body{
   /* width: fit-content;
   height: fit-content;
   display: flex;
-  flex-direction: column; */
-  padding-left: 100px;
+  flex-direction: column;
+  padding-left: 100px; */
   display: wrap;
   text-align: center;
   justify-content: left;
@@ -55,8 +55,9 @@ body{
 .post-body {
   margin-bottom: 0.5em;
   justify-content: left;
-  min-height: 500px;
-  align-self: center;
+  min-height: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
   
 }
 .about-title {

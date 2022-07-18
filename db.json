@@ -3,44 +3,37 @@
     {
       "id": 1,
       "title": "Create-React-App",
-      "body": "",
-      "author": "",
+      "body": "Create React App is a tool maintained by the React Team that allows a basic setup for creating a React single-page application by running: npx create-react-app my-app. This creates the files, folders and dependencies to begin coding without heavy configuration. Two included dependencies that make life a little easier for us are babel and webpack. Babel takes the JSX that is used in React and converts it into vanilla javascript. Webpack helps check dependencies and bundles all of our files, modules and assets into one file for ease in sharing while also ensuring all packages needs are met. Create-react-app includes base files to help get you started creating which you are free to use or replace with your own files. Create-react-app is maintained by the React Team. Check out their website for more information and in-depth documentation.",
+      "author": "Hugh Witchella",
       "created": "06/25/2022"
     },
     {
       "id": 2,
       "title": "React Router",
       "body": "This will contain information about",
-      "author": "",
-      "created": ""
+      "author": "Hugh Witchella",
+      "created": "06/26/2022"
     },
     {
       "id": 3,
       "title": "useEffect",
       "body": "This will contain information about",
-      "author": "",
-      "created": ""
+      "author": "Hugh Witchella",
+      "created": "06/27/2022"
     },
     {
       "id": 4,
       "title": "useState",
       "body": "This will contain information about",
-      "author": "",
-      "created": ""
+      "author": "Hugh Witchella",
+      "created": "06/28/2022"
     },
     {
       "id": 5,
-      "title": "JSX",
+      "title": "useFetch",
       "body": "This will contain information about",
-      "author": "",
-      "created": ""
-    },
-    {
-      "title": "sdf",
-      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vehicula ipsum a arcu cursus vitae congue mauris. Tortor pretium viverra suspendisse potenti. Enim facilisis gravida neque convallis a cras semper auctor neque. Egestas erat imperdiet sed euismod nisi. In nulla posuere sollicitudin aliquam ultrices sagittis orci a. Phasellus vestibulum lorem sed risus ultricies tristique. Dignissim suspendisse in est ante in nibh mauris cursus. Purus semper eget duis at tellus at urna condimentum. Pellentesque habitant morbi tristique senectus et netus et malesuada. Malesuada proin libero nunc consequat interdum varius sit amet mattis. Tristique senectus et netus et malesuada fames ac turpis egestas. Nisl condimentum id venenatis a.",
-      "author": "d",
-      "created": "2022/07/06",
-      "id": 6
+      "author": "Hugh Witchella",
+      "created": "06/30/2022"
     }
   ]
 }
