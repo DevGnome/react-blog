@@ -1,7 +1,7 @@
 # React Blog
 Simple blog using React.js and Node.js.
 Posts are listed with the newest on top and can be viewed by clicking the title. New posts can be added using the New Post button.
-![App Gif](https://capture.dropbox.com/7PWF93xsUxWqZogS)
+![App Gif](https://www.dropbox.com/s/c8lrt69s3jn20yy/porject%202.gif?dl=0)
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Learn More
