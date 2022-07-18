@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# React Blog
+Simple blog using React.js and Node.js.
+Posts are listed with the newest on top and can be viewed by clicking the title. New posts can be added using the New Post button.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
