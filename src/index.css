@@ -61,5 +61,17 @@ body{
   
 }
 .about-title {
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  align-self: center;
+  justify-content: center;
   text-align: center;
+}
+.about-content {
+  margin-bottom: 0.5em;
+  justify-content: left;
+  min-height: 300px;
+  padding-left: 100px;
+  padding-right: 100px;
 }
