@@ -10,30 +10,23 @@
     {
       "id": 2,
       "title": "React Router",
-      "body": "This will contain information about",
+      "body": "<Routes> and <Route> are used by React Router to render based on the current location. When the location changes <Routes> looks at each <Route> it has as a child and to determine the new elements to render. <BrowserRouter> stores the current location in the address bar and navigates using the browser's history stack. React Router is built and maintained by Remix and hundreds of contributors.",
       "author": "Hugh Witchella",
       "created": "06/26/2022"
     },
     {
       "id": 3,
       "title": "useEffect",
-      "body": "This will contain information about",
+      "body": "The main effect of a React functional component is to take in props and return JSX. If the function call makes changes outside of the function itself, it has side effects. The useEffect hook is called in this application to fetch data from the db.json file to get this blog data.  There are two parts to the useEffect hook: a callback function and a dependencies array. The callback function contains the side effect logic. The dependency array is optional and controls when the side effect will run. No dependencies will cause it to run every time the component renders, empty dependencies array will run it once, a dependency with variables will run the side effect whenever one of those variables changes. ",
       "author": "Hugh Witchella",
       "created": "06/27/2022"
     },
     {
       "id": 4,
       "title": "useState",
-      "body": "This will contain information about",
+      "body": "State is dynamic data in React components. It has the ability to change, unlike props, as users interact with the application. The useState hook allows us to keep track of state and update it. The hook accepts an initial state and returns two values: the current state variable, and a function that updates the variable. A quick example: const [color, setColor] = useState(\"blue\"); The initial state given is the color blue, which will be assigned to color. Calling the function setColor can change that value in state.",
       "author": "Hugh Witchella",
       "created": "06/28/2022"
-    },
-    {
-      "id": 5,
-      "title": "useFetch",
-      "body": "This will contain information about",
-      "author": "Hugh Witchella",
-      "created": "06/30/2022"
     }
   ]
 }
