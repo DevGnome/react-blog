@@ -27,13 +27,6 @@
       "body": "State is dynamic data in React components. It has the ability to change, unlike props, as users interact with the application. The useState hook allows us to keep track of state and update it. The hook accepts an initial state and returns two values: the current state variable, and a function that updates the variable. A quick example: const [color, setColor] = useState(\"blue\"); The initial state given is the color blue, which will be assigned to color. Calling the function setColor can change that value in state.",
       "author": "Hugh Witchella",
       "created": "06/28/2022"
-    },
-    {
-      "title": "test",
-      "body": "test",
-      "author": "test",
-      "created": "07/19/2022",
-      "id": 5
     }
   ]
 }

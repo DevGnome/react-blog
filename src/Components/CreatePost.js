@@ -1,17 +1,16 @@
 import { useState } from 'react';
 import {useNavigate} from 'react-router-dom';
-// import Box from '@mui/material/Box';
-// import TextField from '@mui/material/TextField';
 import { Button, TextField, Box } from '@mui/material';
-// const { format } = require('date-fns');
+import moment from 'moment';
 
 function CreatePost() {
     const [title, setTitle] = useState('');
     const [body, setBody] = useState('');
     const [author, setAuthor] = useState('');
     const navigate = useNavigate();
-    const today = new Date().toJSON().slice(0, 10).replace(/-/g, '/');
-    
+    //const today = new Date().toJSON().slice(0, 10).replace(/-/g, '/');
+    const today = moment().format('MM/DD/YYYY');
+
     const handleSubmit = (e) => {
         e.preventDefault();
         const newPost = { title, body, author, created: today};
